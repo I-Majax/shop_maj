@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        header {
+            background-color: #333;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        .search_line {
+            display: flex;
+            justify-content: center;
+        }
+        .search_form {
+            margin: auto 20px;
+        }
+        .search {
+            margin: 0px;
+        }
+        ul {
+            list-style-type: none;
+            display: contents;
+        }
+        li {
+            margin: 0px 40px;
+        }
+        li a {
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            padding: 4px 10px;
+            transition: all 0.2s ease;
+        }
+        li a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        h1 {
+            margin-left: 10px;
+        }
+        .lots {
+            width: 250px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+        .lot_price {
+            padding: 0px 5px;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+        }
+        .push_to_basket {
+            margin-left: auto;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+            padding: 0px 5px;
+            transition: all 0.2s ease;
+            
+        }
+        .lot_basket {
+            text-decoration: none;
+            color: #000;
+        }
+        .price_basket {
+            display: flex;
+            margin: 20px 10px 5px;
+            font-size: 34px;
+            
+        }
+        .push_to_basket:hover {
+            background-color: #0f0;
+        }
+        .img_main {
+            height: 612px;
+        }
+        .main {
+            display: flex;
+        }
+        .sub_img {
+            height: 150px;
+            margin: auto 10px;
+        }
+        .product_info {
+            padding: 10px;
+            width: 600px;
+        }
+        footer div {
+            transition: all 0.2s ease;
+        }
+        .push_to_basket:hover {
+            background-color: #0f0;
+        }
+        .contacts:hover{
+            cursor: pointer;
+        }
+        .contacts:hover {
+            background-color: #0075fe;
+        }
+        footer div {
+            margin: auto 50px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            padding: 4px 10px;
+        }
+        footer div a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .price {
+            font-size: 34px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="search_line">
+            <img src="./tasks/src/task_4/logo.png" alt="Logo" width="100">
+            <form class="search_form">
+                <input type="search" size="80" class="search">
+                <button type="submit" class="search">🔍︎</button>
+            </form>
+            <img src="./tasks/src/task_4/logo.png" alt="Logo" width="100">
+        </div>
+        <div class="search_line">
+            <ul>
+                <li>
+                    <a href="./index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+                <li>
+                    <a href="">Корзина</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Микшерный пульт 7-канальный</h1>
+        <section class="main">
+            <article>
+                <section class="foto_product">
+                    <article>
+                        <a href="./product.html"><img src="./tasks/src/task_4/lot1.png" alt="img_sub_1" class="sub_img"></a>
+                    </article>
+                    <article>
+                        <a href="./product_2.html"><img src="https://basket-16.wbbasket.ru/vol2481/part248122/248122094/images/big/2.webp" alt="img_sub_2" class="sub_img"></a>
+                    </article>
+                    <article>
+                        <img src="https://basket-16.wbbasket.ru/vol2481/part248122/248122094/images/big/3.webp" alt="img_sub_3" class="sub_img">
+                    </article>
+                    <article>
+                        <a href="./product_4.html"><img src="https://basket-16.wbbasket.ru/vol2481/part248122/248122094/images/big/4.webp" alt="img_sub_4" class="sub_img"></a>
+                    </article>
+                </section>
+            </article>
+            <article>
+                <img src="https://basket-16.wbbasket.ru/vol2481/part248122/248122094/images/big/3.webp" alt="Lot_main" class="img_main">
+            </article>
+            <article>
+                <ul>
+                    <li>Модель - 001</li>
+                    <li>Гарантия - 6 мес.</li>
+                    <li>Питание - от сети</li>
+                    <li>Тип - аналоговый</li>
+                </ul>
+                <div class="product_info">
+                    Вы ищете идеальный микшерный пульт для вашего студийного оборудования? Наш микшерный пульт - это идеальное решение для ваших потребностей! 
+                    С его помощью вы сможете профессионально регулировать звуковые уровни и создавать уникальные звуковые композиции.
+                    Этот микшер пульт обеспечит вам гладкую и точную работу с каждым из подключаемых устройств, включая микрофоны. Благодаря высокому качеству звучания и удобному интерфейсу, 
+                    вам будет легко достичь желаемого звукового эффекта.Каждый микшер для микрофона, включенный в комплект, обладает высокой чувствительностью и минимальным уровнем помех, 
+                    что позволит вам записывать чистые и четкие звуковые дорожки. 
+                    Вы сможете легко переключаться между различными источниками звука и настраивать его по своему вкусу.
+                    Не упустите возможность обновить свое студийное оборудование с помощью нашего микшерного пульта! Приобретайте его прямо сейчас и создавайте неповторимую музыку 
+                    без ограничений!
+                </div>
+                <div class="price_basket">
+                    <span class="lot_price">5 790 &#8381;</span>
+                    <span class="push_to_basket"><a href="" class="lot_basket">Добавить в корзину</a></span>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="contacts"><a href="https://web.telegram.org/" target="_blank">TG</a></div>
+        <div class="contacts"><a href="tel:+70000000000">+7 (000) 000-00-00</a></div>
+        <div>&copy; 2026 ООО «Зеленоглазое такси»</div>
+        <div class="contacts"><a href="mailto:i@muzlove.ru">i@muzlove.ru</a></div>
+        <div class="contacts"><a href="https://vk.com/majaxiarst" target="_blank">VK</a></div>
+    </footer>
+</body>
+</html>

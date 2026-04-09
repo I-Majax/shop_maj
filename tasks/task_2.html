@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_2</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        ol {
+            list-style: none;
+            padding: 0 15px 0 15px;
+        }
+        li {
+            padding: 10px;
+            font-size: 20px;
+        }
+        li::before {
+            content: url(./src/task_2/1.png);
+            padding: 10px;
+            /* background-color: #add8e6; */
+        }
+        li.complete::before {
+            content: url(./src/task_2/2.png);
+            padding: 10px;
+            background-color: #e2e2e2;
+            font-size: 20px;
+        }
+        li.complete {
+            background-color: #e2e2e2;
+            
+        }
+        .text {
+            text-decoration: line-through;
+        }
+        .cross {
+            color: #690e0e;
+            font-size: 20px;
+            font-weight: 900;
+        }
+        li.color_1::before, .color_1 {
+            background-color: #a5ccda;
+        }
+        .color_2, li.color_2::before{
+            background-color: #add8e6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Мой Список Задач</h1>
+    <ol>
+        <li class="color_1">
+            Сходить в спортзал
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="complete">
+            <span class="text">Оплатить счет</span>
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_1">
+            Познакомиться с Джоном
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_2">
+            Купить яйца
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="complete">
+            <span class="text">Прочитать книгу</span>
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_2">
+            Сделать лабораторные
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_1">
+            Поужинать 
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_2">
+            Купить яблоки
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_1">
+            Сломать карандаш
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_2">
+            Покормить кошку
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="complete">
+            <span class="text">Написать письмо</span>
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+        <li class="color_2">
+            Пробежать 1 км
+            &nbsp;
+            <span class="cross">&#215;</span>
+        </li>
+    </ol>
+</body>
+</html>

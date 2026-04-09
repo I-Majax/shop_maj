@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_1</title>
+    <style>
+        * {
+            
+            box-sizing: border-box;
+            color: #fff;
+        }
+        div {
+            background-color: #ed9eae;
+            width: 800px;
+            margin: auto;
+            
+        }
+        ol {
+            list-style: none;
+            counter-reset: cnt;
+            padding: 15px;
+            font-size: 24px;
+        }
+        span {
+            /* display: block; */
+            background-color: #9e354a;
+            padding: 5px 25px;
+        }
+        li::before {
+            counter-increment: cnt;
+            content: counter(cnt) '. ';
+            background-color: #c66376;
+            padding: 5px 5px 5px 10px;
+        }
+        li {
+            background-color: #c66376;
+            margin: 10px;
+            padding-left: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ol>
+            <li><span>Apple</span></li>
+            <li><span>Orange</span></li>
+            <li><span>Pineapple</span></li>
+            <li><span>Pear</span></li>
+            <li><span>Cherry</span></li>
+        </ol>
+    </div>
+</body>
+</html>

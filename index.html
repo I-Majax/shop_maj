@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МузLove</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        .search_line {
+            display: flex;
+            justify-content: center;
+        }
+        .search_form {
+            margin: auto 20px;
+        }
+        .search {
+            margin: 0px;
+        }
+        ul {
+            list-style-type: none;
+            display: contents;
+        }
+        li {
+            margin: 0px 40px;
+        }
+        li a {
+            color: #fff;
+            text-decoration: none;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            padding: 4px 10px;
+            transition: all 0.2s ease;
+        }
+        li a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        .name_store {
+            display: flex;
+            justify-content: center;
+        }
+        .sub_name {
+            display: flex;
+            justify-content: center;
+        }
+        section {
+            display: flex;
+            justify-content: center;
+        }
+        article {
+            width: 250px;
+            margin: 5px;
+            border: 1px solid #333;
+            padding: 10px;
+        }
+        .lots {
+            width: 250px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+        .lot_price {
+            padding: 0px 5px;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+        }
+        .push_to_basket {
+            margin-left: auto;
+            border: 2px solid #0f0;
+            border-radius: 10px;
+            padding: 0px 5px;
+            transition: all 0.2s ease;
+            
+        }
+        .lot_basket {
+            text-decoration: none;
+            color: #000;
+        }
+        .price_basket {
+            display: flex;
+            margin-bottom: 5px;
+        }
+        .birthday_box {
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            background-color: #feb943;
+            width: 1000px;
+            margin: 0px auto 20px;
+            border: 0px solid #feb943;
+            border-radius: 25px;
+            padding: 5px 0px;
+        }
+        footer div {
+            margin: auto 50px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            padding: 4px 10px;
+        }
+        footer div a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        header {
+            background-color: #333;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        footer div {
+            transition: all 0.2s ease;
+        }
+        .push_to_basket:hover {
+            background-color: #0f0;
+        }
+        .contacts:hover{
+            cursor: pointer;
+        }
+        .contacts:hover {
+            background-color: #0075fe;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="search_line">
+            <img src="./tasks/src/task_4/logo.png" alt="Logo" width="100">
+            <form class="search_form">
+                <input type="search" size="80" class="search">
+                <button type="submit" class="search">🔍︎</button>
+            </form>
+            <img src="./tasks/src/task_4/logo.png" alt="Logo" width="100">
+        </div>
+        <div class="search_line">
+            <ul>
+                <li>
+                    <a href="">Главная</a>
+                </li>
+                <li>
+                    <a href="">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+                <li>
+                    <a href="">Корзина</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1 class="name_store">Добро пожаловать на главную страницу МузLove!</h1>
+        <h2 class="sub_name">Популярные товары</h2>
+        <section>
+            <article>
+                <img src="./tasks/src/task_4/lot1.png" alt="lot_1" class="lots">
+                <div class="price_basket">
+                    <span class="lot_price">5 505 &#8381;</span>
+                    <span class="push_to_basket"><a href="" class="lot_basket">Добавить в корзину</a></span>
+                </div>
+                <b class="lot_name"><a href="./product.html">Микшерный пульт 7-канальный</a></b>
+                <br>
+                <i class="lot_description">
+                    Вы ищете идеальный микшерный пульт для вашего студийного оборудования?
+                    Наш микшерный пульт - это идеальное решение для ваших потребностей! 
+                    С его помощью вы сможете профессионально регулировать звуковые уровни
+                    и создавать уникальные звуковые композиции.
+                </i>
+            </article>
+            <article>
+                <img src="./tasks/src/task_4/lot2.png" alt="" class="lots">
+                <div class="price_basket">
+                    <span class="lot_price">5 790 &#8381;</span>
+                    <span class="push_to_basket"><a href="" class="lot_basket">Добавить в корзину</a></span>
+                </div>
+                <b class="lot_name">GOCHANMI M6</b>
+                <br>
+                <i class="lot_description">
+                    GOCHANMI M6 — это компактный и мощный 6-канальный микшерный пульт, 
+                    разработанный для музыкантов, ведущих мероприятий и звукорежиссёров, 
+                    которым требуется профессиональное качество звука и универсальность в различных условиях.
+                </i>
+            </article>
+            <article>
+                <img src="./tasks/src/task_4/lot3.png" alt="lot3" class="lots">
+                <div class="price_basket">
+                    <span class="lot_price">4 460 &#8381;</span>
+                    <span class="push_to_basket"><a href="" class="lot_basket">Добавить в корзину</a></span>
+                </div>
+                <b class="lot_name">GOCHANMI TYT-MX12PRO</b>
+                <br>
+                <i class="lot_description">
+                    Звуковой пульт Gochanmi MX12Pro DJ-микшер на 12 каналов с 256 DSP-эффектами. 
+                    С этим микшером вы сможете играть, экспериментировать и создавать потрясающие звуки. 
+                    Встроенные DSP-эффекты с разрешением 256 бит.
+                </i>
+            </article>
+            <article>
+                <img src="./tasks/src/task_4/lot4.png" alt="lot4" class="lots">
+                <div class="price_basket">
+                    <span class="lot_price">6 825 &#8381;</span>
+                    <span class="push_to_basket"><a href="" class="lot_basket">Добавить в корзину</a></span>
+                </div>
+                <b class="lot_name">Аудиомикшер R4-PRO</b>
+                <br>
+                <i class="lot_description">
+                    Профессиональный аудиомикшер R4-PRO четырехканальный - это универсальная звуковая 
+                    станция, укомплектованная двумя беспроводными UHF-микрофонами. Этот компактный цифровой 
+                    микшер создан для тех, кому нужна максимальная мобильность и качественный звук без лишних проводов.
+                </i>
+            </article>
+            <article>
+                <img src="./tasks/src/task_4/lot5.png" alt="" class="lots">
+                <div class="price_basket">
+                    <span class="lot_price">19 884 &#8381;</span>
+                    <span class="push_to_basket"><a href="" class="lot_basket">Добавить в корзину</a></span>
+                </div>
+                <b class="lot_name">Behringer Flow 8</b>
+                <br>
+                <i class="lot_description">
+                    Behringer Flow 8 — это универсальный 8-канальный цифровой микшер с профессиональными возможностями 
+                    и управлением через мобильное приложение. Подходит для стримов, подкастов, живых выступлений и 
+                    домашней студии. 2 независимых процессора эффектов.
+                </i>
+            </article>
+        </section>
+        <br>
+        <div class="birthday_box">
+            У тебя день рождения? Предъяви паспорт и получи скидку в 10% на любую позицию товара!
+        </div>
+    </main>
+    <footer>
+        <div class="contacts"><a href="https://web.telegram.org/" target="_blank">TG</a></div>
+        <div class="contacts"><a href="tel:+70000000000">+7 (000) 000-00-00</a></div>
+        <div>&copy; 2026 ООО «Зеленоглазое такси»</div>
+        <div class="contacts"><a href="mailto:i@muzlove.ru">i@muzlove.ru</a></div>
+        <div class="contacts"><a href="https://vk.com/majaxiarst" target="_blank">VK</a></div>
+    </footer>
+</body>
+</html>
