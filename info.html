@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация</title>
+    <link rel="stylesheet" href="style-header_footer.css">
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        h2.payments {
+            
+        }
+        .payments {
+            margin: auto auto;
+            text-align: center;
+        }
+        .shipping_cost {
+            margin: auto auto;
+            text-align: center;
+            position: relative;
+            bottom: 105px;
+        }
+        table {
+            border-collapse: collapse;
+            border: 2.5px solid #000;
+            margin: 0px auto 16px;
+            font-size: 20px;
+        }
+        td {
+            border: 2px solid #000;
+            padding: 10px 15px;
+        }
+        section.payments div {
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px 15px 10px;
+            font-size: 20px;
+            text-align: left;
+        }
+        section.payments div img {
+            height: 20px;
+        }
+        .main_text {
+            padding-left: 7px;
+        }
+        .sub_text {
+            font-size: 16px;
+            color: #919191;
+            padding-left: 32px;
+        }
+        div.credit_card img {
+            position: relative;
+            top: 2.7px;
+        }
+        div.sbp img {
+            position: relative;
+            top: 6px;
+        }
+        div.sberpay img {
+            position: relative;
+            top: 6px;
+        }
+        div.dolami img {
+            position: relative;
+            top: 6px;
+        }
+        div.cash img {
+            position: relative;
+            top: 2.7px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="search_line">
+            <img src="./tasks/src/task_4/logo.png" alt="Logo" width="100">
+            <form class="search_form">
+                <input type="search" size="80" class="search">
+                <button type="submit" class="search">🔍︎</button>
+            </form>
+            <img src="./tasks/src/task_4/logo.png" alt="Logo" width="100">
+        </div>
+        <div class="search_line">
+            <ul>
+                <li>
+                    <a href="">Главная</a>
+                </li>
+                <li>
+                    <a href="">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+                <li>
+                    <a href="">Корзина</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="payments">
+            <h2>Способы оплаты</h2>
+            <div class="credit_card">
+                <img src="https://www.svgrepo.com/show/71577/credit-card.svg" alt="Card">
+                <span class="main_text">Банковской картой</span>
+                <br>
+                <span class="sub_text">Visa, Mastercard, МИР</span>
+            </div>
+            <div class="sbp">
+                <img src="./tasks/src/sbp.png" alt="SBP">
+                <span class="main_text">Системой быстрых платежей</span>
+                <br>
+                <span class="sub_text">Через мобильное приложение банка</span>
+            </div>
+            <div class="sberpay">
+                <img src="https://companieslogo.com/img/orig/SBER.ME-10de1f5f.png?t" alt="Sber">
+                <span class="main_text">SberPay</span>
+                <br>
+                <span class="sub_text">Через Сбер</span>
+            </div>
+            <div class="dolami">
+                <img src="https://kolchugserebro.ru/upload/sale/paysystem/logotip/955/cddfqtpe4uh1lwid2c8v5o7x3vqg32pk.png" alt="Dolami">
+                <span class="main_text">Долями</span>
+                <br>
+                <span class="sub_text">Плати по частям без переплат</span>
+            </div>
+            <div class="cash">
+                <img src="https://img.freepik.com/premium-vector/wallet-icon-design-vector-template_1146812-447.jpg" alt="Cash">
+                <span class="main_text">Наличными</span>
+                <br>
+                <span class="sub_text">При получении</span>
+            </div>
+        </section>
+        <section class="shipping_cost">
+            <h2>Стоимость доставки</h2>
+            <table>
+                <tr>
+                    <td>Способ доставки</td>
+                    <td>Срок доставки</td>
+                    <td>Стоимость доставки</td>
+                </tr>
+                <tr>
+                    <td>Со склада</td>
+                    <td>0 дней</td>
+                    <td>0 руб</td>
+                </tr>
+                <tr>
+                    <td>ПВЗ</td>
+                    <td>3-5 дней</td>
+                    <td>30 руб</td>
+                </tr>
+                <tr>
+                    <td>Курьер</td>
+                    <td>5-7 дней</td>
+                    <td>150 руб</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="contacts"><a href="https://web.telegram.org/" target="_blank">TG</a></div>
+        <div class="contacts"><a href="tel:+70000000000">+7 (000) 000-00-00</a></div>
+        <div>&copy; 2026 ООО «Зеленоглазое такси»</div>
+        <div class="contacts"><a href="mailto:i@muzlove.ru">i@muzlove.ru</a></div>
+        <div class="contacts"><a href="https://vk.com/majaxiarst" target="_blank">VK</a></div>
+    </footer>
+</body>
+</html>
